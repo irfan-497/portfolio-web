@@ -1,0 +1,174 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgb(199, 71, 92);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+}
+
+.nav-list {
+  display: flex;
+  margin-right: 2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-list a {
+  display: block;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.nav-list a:hover {
+  background: #45567d;
+}
+
+.Welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: #27282a;
+}
+
+h1 {
+  color: white;
+  font-size: 70px;
+  font-family: "Raleway", sans-serif;
+}
+
+.p {
+  color: brown;
+  font-size: 40px;
+  font-style: italic;
+}
+
+.project-section {
+  padding: 100px 32px;
+  background: #45567d;
+}
+
+.project-header {
+  text-align: center;
+  max-width: 640px;
+  font-size: 40px;
+  color: white;
+  margin: 0 auto 6rem auto;
+  border-bottom: 0.2rem solid white;
+}
+.grid {
+  display: grid;
+  width: 100%;
+  grid-gap: 30px;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  
+}
+.grid__item {
+  background-color: #fff;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.card__img {
+  height: 500px;
+  width: 100%;
+}
+.para1 {
+  font-size: 1.2rem;
+  padding: 1rem ;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  background: #303841;
+}
+.show {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.btnns {
+  background-color:#303841;
+  padding: 12px 22px;
+  font-size: 20px;
+}
+
+.btnns:hover{
+  background: rgb(199, 71, 92) ;
+}
+.main {
+  background: #303841;
+  height: 100vh;
+}
+
+.main-section {
+  padding-top: 100px;
+  text-align: center;
+}
+h3 {
+  color: white;
+  font-size: 75px;
+}
+.para {
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+}
+.contact-links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.btns {
+  font-size: 1.5rem;
+  padding: 10px;
+  text-shadow: 2px 2px 1px #1f1f1f;
+  transition: transform 0.3s ease-out;
+  transform: translateY(-15px);
+}
+
+.btns:hover{
+transform: none;
+}
+
+i{
+    padding:0px 10px;
+}
+
+.main-footer {
+  border-top: 5px solid rgb(179, 66, 85);
+  background: #303841;
+  height: 15vh;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.paara2 {
+  font-size: 20px;
+  color: white;
+}
